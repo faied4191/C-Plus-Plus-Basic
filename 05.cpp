@@ -13,3 +13,15 @@ int main() {
     cin >> b;
     cout << "Enter Third Number: ";
     cin >> c;
+
+    if (a > b && a > c) {
+        greatest = a;
+    } else if (b > a && b > c) {
+        greatest = b;
+    } else {
+        greatest = c;
+    }
+
+    cout << "The Greatest is: " << greatest << endl;
+    return 0;
+}

@@ -7,3 +7,12 @@ int main() {
     int count;
     cout << "Enter Your Name: ";
     getline(cin, a);
+
+    for (int i=0; a[i]!=0; i++) {
+        count++;
+    }
+
+    cout << "Name: " << a << endl;
+    cout << "Length: " << count << endl;
+    return 0;
+}

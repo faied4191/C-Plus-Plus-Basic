@@ -23,3 +23,11 @@ int main() {
   cin >> a;
   cout << "Enter the second number: ";
   cin >> b;
+
+  float sum = isSum(a, b);
+  float max = isMax(a, b);
+
+  cout << "The sum is: " << sum << endl;
+  cout << "The maximum number is: " << max << endl;
+  return 0;
+}

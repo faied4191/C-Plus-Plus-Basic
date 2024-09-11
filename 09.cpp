@@ -13,3 +13,9 @@ int main() {
     cin >> a;
     cout << "Enter the second number: ";
     cin >> b;
+
+    float sum = isSum(a, b);
+
+    cout << "The sum is: " << sum << endl;
+    return 0;
+}

@@ -15,3 +15,11 @@ float isMax(float x, float y) {
   }
   return large;
 }
+
+int main() {
+  float a;
+  float b;
+  cout << "Enter the first number: ";
+  cin >> a;
+  cout << "Enter the second number: ";
+  cin >> b;

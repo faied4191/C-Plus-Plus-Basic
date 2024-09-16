@@ -15,3 +15,10 @@ public:
         int area = length * width;
         cout << "Area: " << area << endl;
     }
+
+    void perimeter() {
+        int perimeter = 2 * (length + width);
+        cout << "Perimeter: " << perimeter << endl;
+    }
+
+};

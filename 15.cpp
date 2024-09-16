@@ -22,3 +22,11 @@ public:
     }
 
 };
+
+int main() {
+    Rectangle ob(5, 3);
+
+    ob.area();
+    ob.perimeter();
+    return 0;
+}

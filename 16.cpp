@@ -18,3 +18,12 @@ public:
         cout << "Woof!" << endl;
     }
 };
+
+int main() {
+    Dog ob;
+
+    ob.eat();
+    ob.sleep();
+    ob.bark();
+    return 0;
+}

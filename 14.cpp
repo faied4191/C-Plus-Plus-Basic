@@ -20,3 +20,12 @@ public:
         cout << "Year: " << year << endl;
     }
 };
+
+int main() {
+    Book ob1("The Lord of the Rings", "J.R.R. Tolkien", 1954);
+    Book ob2("The Hitchhiker's Guide to the Galaxy", "Douglas Adams", 1979);
+
+    ob1.display();
+    ob2.display();
+    return 0;
+}

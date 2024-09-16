@@ -11,3 +11,10 @@ public:
         cout << "Sleep" << endl;
     }
 };
+
+class Dog : public Animal {
+public:
+    void bark() {
+        cout << "Woof!" << endl;
+    }
+};

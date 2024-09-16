@@ -6,3 +6,8 @@ public:
     void eat() {
         cout << "Eat" << endl;
     }
+
+    void sleep() {
+        cout << "Sleep" << endl;
+    }
+};

@@ -10,3 +10,8 @@ public:
         this->length = length;
         this->width = width;
     }
+
+    void area() {
+        int area = length * width;
+        cout << "Area: " << area << endl;
+    }

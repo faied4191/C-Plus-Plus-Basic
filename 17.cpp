@@ -15,3 +15,12 @@ public:
     cout << "The Sum is: " << a + b + c << endl;
   }
 };
+
+int main() {
+  Calculator ob;
+
+  ob.add(5, 3);
+  ob.add(2.5, 1.8);
+  ob.add(1, 2, 3);
+  return 0;
+}

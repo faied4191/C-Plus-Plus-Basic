@@ -25,3 +25,11 @@ class Adder {
 
 int main() {
    Adder a;
+
+   a.addNum(10);
+   a.addNum(20);
+   a.addNum(30);
+
+   cout << "Total " << a.getTotal() <<endl;
+   return 0;
+}

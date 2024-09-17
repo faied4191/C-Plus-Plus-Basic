@@ -17,3 +17,8 @@ class Adder {
       int getTotal() {
          return total;
       };
+
+   private:
+      // hidden data from outside world
+      int total;
+};

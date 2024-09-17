@@ -12,3 +12,8 @@ class Adder {
       void addNum(int number) {
          total += number;
       }
+
+      // interface to outside world
+      int getTotal() {
+         return total;
+      };

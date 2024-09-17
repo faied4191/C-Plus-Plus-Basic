@@ -7,3 +7,8 @@ class Adder {
       Adder(int i = 0) {
          total = i;
       }
+
+      // interface to outside world
+      void addNum(int number) {
+         total += number;
+      }

@@ -22,3 +22,6 @@ class Adder {
       // hidden data from outside world
       int total;
 };
+
+int main() {
+   Adder a;

@@ -5,3 +5,6 @@ using namespace std;
     cout << "The Sum is: " << a + b << endl;
   }
 
+  void add(double a, double b) {
+    cout << "The Sum is: " << a + b << endl;
+  }
